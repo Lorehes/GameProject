@@ -1,6 +1,6 @@
 import random
 
-f = open("vaca.txt", "r", encoding="utf-8")
+f = open("hangman_words.txt", "r", encoding="utf-8")
 raw_data = f.read()
 f.close()
 
