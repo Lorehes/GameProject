@@ -39,3 +39,6 @@ while True:
     
     # 단어가 먼저 완성되면 단어를 맞힌 B가 승리한다.
     if word_show.find("_") == -1 : break
+    
+    
+print("정답은 " + word + "입니다.")
