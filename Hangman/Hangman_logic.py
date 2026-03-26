@@ -1,7 +1,8 @@
+from read_txt import word
+
 # A가 영어 단어를 1개 생각한다.
-word = "man"
+
 word = word.upper()
-print(word)
 
 # 단어의 글자 수 만큼 밑줄을 긋는다.
 word_show = "_"*len(word)

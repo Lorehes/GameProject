@@ -14,4 +14,3 @@ while True:
 
     word = data_list[r_index].replace(u"\xa0", u" ").split(" ")[-1]
     if len(word) <= 6: break
-    print(word)
